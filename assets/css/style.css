@@ -1,0 +1,43 @@
+section{
+        border: 0.3mm solid black;
+        border-radius: 0cm
+}
+section h2 {
+    font-size: 15mm;
+    text-shadow: 1.5mm 1.5mm black;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: grey;
+    color: white;
+}
+article p{
+    font-size: 7mm;
+    color: white;
+}
+article{
+    border: 0.5mm solid black;
+    background-color: lightgray;
+    padding: 0.8cm;
+}
+
+ul li:first-child{
+font-size: 0.7cm;
+background-color: white
+}
+ul li:nth-child(2){
+    font-size: 1cm;
+    color: white;
+}
+ul li:last-child{
+    font-size: 1.2cm;
+    background-color: white
+}
+ul{
+    list-style: none;
+}
+ul li::before{
+    content: '\02DA';
+}
+h3{
+    font-size: 1cm;
+    color: white;
+}
